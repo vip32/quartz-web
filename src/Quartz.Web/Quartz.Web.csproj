@@ -1,9 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Quartz.Web</AssemblyName>
     <RootNamespace>Quartz.Web</RootNamespace>
+    <PackageId>Quartz.Web.BETA</PackageId>
+    <Description></Description>
+    <Company></Company>
+    <Copyright></Copyright>
+    <PackageProjectUrl>https://github.com/vip32/quartz-web</PackageProjectUrl>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>
