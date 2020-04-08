@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30001.183
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.Web", "src\Quartz.Web\Quartz.Web.csproj", "{D8E4BB69-6FE3-48AA-8F68-2876237F220D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_global", "_global", "{31299874-E845-4478-80E4-4635B929BE81}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+		Directory.Build.props = Directory.Build.props
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5D91D27A-01B4-423A-B80F-5065D0F3B7AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example", "example", "{F1072A50-9F10-45F1-873D-B226F0820FBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8E4BB69-6FE3-48AA-8F68-2876237F220D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E4BB69-6FE3-48AA-8F68-2876237F220D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E4BB69-6FE3-48AA-8F68-2876237F220D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E4BB69-6FE3-48AA-8F68-2876237F220D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8E4BB69-6FE3-48AA-8F68-2876237F220D} = {5D91D27A-01B4-423A-B80F-5065D0F3B7AF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED9C8E10-05CC-4A75-A44C-C16F018E9402}
+	EndGlobalSection
+EndGlobal
