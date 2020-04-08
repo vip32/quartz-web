@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Quartz.Web</AssemblyName>
     <RootNamespace>Quartz.Web</RootNamespace>
-    <PackageId>Quartz.Web.BETA</PackageId>
+    <PackageId>Quartz.Web</PackageId>
     <Description></Description>
     <Company></Company>
     <Copyright></Copyright>
