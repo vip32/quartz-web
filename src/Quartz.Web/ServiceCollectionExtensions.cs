@@ -16,7 +16,7 @@
         {
             services.AddSingleton<IJobFactory, ScopedJobFactory>();
             services.AddSingleton<ISchedulerFactory, StdSchedulerFactory>();
-            services.AddHostedService<QuartzHostedService>();
+            services.AddHostedService<JobHostedService>();
 
             return services;
         }

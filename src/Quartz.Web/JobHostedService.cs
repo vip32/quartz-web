@@ -9,13 +9,13 @@
     using Quartz;
     using Quartz.Spi;
 
-    public class QuartzHostedService : IHostedService
+    public class JobHostedService : IHostedService
     {
         private readonly ISchedulerFactory schedulerFactory;
         private readonly IJobFactory jobFactory;
         private readonly IEnumerable<JobSchedule> jobSchedules;
 
-        public QuartzHostedService(
+        public JobHostedService(
             ISchedulerFactory schedulerFactory,
             IJobFactory jobFactory,
             IEnumerable<JobSchedule> jobSchedules)
