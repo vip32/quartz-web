@@ -5,14 +5,12 @@
     <Authors>vip32</Authors>
     <Description>Quartz.Web</Description>
     <Product>Quartz.Web</Product>
-    <Copyright></Copyright>
+    <Copyright>Copyright 2020 (c) vip32. All rights reserved.</Copyright>
 
     <!--sourcelink https://github.com/dotnet/sourcelink -->
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
-    <IncludeSymbols>true</IncludeSymbols>
-    <!-- build date https://www.meziantou.net/2018/09/24/getting-the-date-of-build-of-a-net-assembly-at-runtime -->
-    <!--<SourceRevisionId>build$([System.DateTime]::UtcNow.ToString("yyyyMMddHHmmss"))</SourceRevisionId>-->
+    <IncludeSymbols>false</IncludeSymbols>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,6 +20,7 @@
   <PropertyGroup>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <WarningsAsErrors></WarningsAsErrors>
+    <CodeAnalysisRuleSet></CodeAnalysisRuleSet>
     <UseSharedCompilation>true</UseSharedCompilation> <!--roslyn build speed-->
   </PropertyGroup>
 

@@ -51,14 +51,6 @@ steps:
     packDirectory: '$(Build.ArtifactStagingDirectory)'
     buildProperties: 'Version=$(GitVersion.NuGetVersion)'
     verbosityPack: Normal
-    includeSymbols: false
-    includeSource: false
-
-- task: DeleteFiles@1
-  displayName: Delete nuget symbol packages
-  inputs:
-    SourceFolder:
-    Contents: '$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
 
 - task: DotNetCoreCLI@2
   displayName: Push nuget packages # https://github.com/Microsoft/azure-pipelines-tasks/issues/7160#issuecomment-509044113
