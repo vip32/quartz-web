@@ -1,5 +1,5 @@
 variables:
-- group: vars # azure pipelines variable group https://docs.microsoft.com/en-us/azure/devops/pipelines/library/variable-groups?view=azdevops&tabs=yaml
+- group: vars
 - name: buildConfiguration
   value: 'Release'
 
