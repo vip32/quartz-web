@@ -1,4 +1,4 @@
-﻿namespace Quartz.Web
+namespace Quartz.Web
 {
     using System;
     using EnsureThat;
